@@ -1019,22 +1019,6 @@ body {
   color: var(--main-color);
 }
 
-.main-title h4::before {
-  content: "";
-  width: 125%;
-  height: 125%;
-  background-color: transparent;
-  position: absolute;
-  left: -13px;
-  top: -4px;
-  border-radius: 4px;
-  transition: .4s;
-}
-
-.main-title h4:hover::before {
-  border: 1px solid var(--main-color);
-}
-
 .main-title p {
   width: 350px;
   margin: 0 auto;
